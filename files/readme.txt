@@ -1,0 +1,1 @@
+This directory contains files used for executing tests to read, extract, modify, and create ZIP archives.
