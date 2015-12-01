@@ -1,0 +1,29 @@
+{
+    "name": "dapphp/phpziputils",
+    "description": "Native PHP classes for reading and writing zip files",
+    "type": "library",
+    "keywords": [
+        "zip",
+        "unzip",
+        "compression",
+        "pkzip",
+        "zlib"
+    ],
+    "homepage": "https://github.com/dapphp/PhpZipUtils",
+    "authors": [
+        {
+            "name": "Drew Phillips",
+            "email": "drew@drew-phillips.com",
+            "homepage": "http://drew-phillips.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3",
+        "ext-zlib": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Dapphp\\PhpZipUtils\\": "src/"
+        }
+    }
+}
